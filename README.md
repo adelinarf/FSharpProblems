@@ -17,7 +17,6 @@ O:
 
     let main = suma (churchOf 4)(churchOf 6) |> printf "%A"
 
-##### Nota: No se debe eliminar "|> printf "%A"" debido a que esto permite la impresión en pantalla del resultado de la operación.
 
 ## 1.b.i Max Heap Simétrico 
 Este problema se encuentra en el archivo arbol.fs. Se creó el tipo de dato Arbol con un discriminated union que no solo es recursivo, sino que también cuenta con una entrada de valores de un tipo genérico. Para conseguir si el árbol es max heap simétrico o no, utilizamos el hecho de que un árbol es max heap simétrico, si y solo si los recorridos preorder y postorder son iguales.
@@ -29,4 +28,6 @@ Para correr el programa se debe modificar el código, únicamente en la definici
         let arbolito = Rama (1, Rama (2, Hoja(4),Hoja(5)), Hoja(3))
 
 <img src="tree12.gif" alt="arbol"/>
+
+##### Nota: No se debe eliminar "|> printf "%A"" debido a que esto permite la impresión en pantalla del resultado de la operación.
 
