@@ -29,5 +29,5 @@ Para correr el programa se debe modificar el código, únicamente en la definici
 
 <img src="tree12.gif" alt="arbol"/>
 
-##### Nota: No se debe eliminar "|> printf "%A"" debido a que esto permite la impresión en pantalla del resultado de la operación.
+##### Nota: No se debe eliminar "|> printf "%A"" debido a que esto permite la impresión en pantalla del resultado de la operación o la función llamada en main.
 
