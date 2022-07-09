@@ -28,4 +28,5 @@ Para correr el programa se debe modificar el código, únicamente en la definici
 
         let arbolito = Rama (1, Rama (2, Hoja(4),Hoja(5)), Hoja(3))
 
+<img src="tree12.gif" alt="arbol"/>
 
